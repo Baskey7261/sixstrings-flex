@@ -183,6 +183,10 @@ i {
     list-style: none;
 }
 
+body {
+    background-color: rgb(243, 243, 243);
+}
+
 button {
     width: 150px;
     margin: 35px auto;
@@ -261,9 +265,9 @@ p {
     font-size: 1rem;
     font-weight: 100;
     font-style: normal;
-    line-height: 1.4em;
+    line-height: 1.5em;
     margin: 0rem 0px 0px 0px;
-    color: #444;
+    color: #333;
 }
 
 h1 {
@@ -285,11 +289,11 @@ h2 {
 }
 
 h3 {
-    font-family: 'Outfit-Regular';
+    font-family: 'Quicksand-Regular';
     font-size: 1.8rem;
     font-weight: normal;
     font-style: normal;
-    line-height: 2rem;
+    line-height: 1em;
     margin: 0px 0px 0px 0px;
     color: rgb(148, 96, 6);
 }
@@ -299,7 +303,7 @@ h3 {
     border: none;
     padding-bottom: .5rem;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #dbc874;
+    border-bottom: 1px solid var(--accent2);
 }
 
 .gap1 {
@@ -565,8 +569,11 @@ section {
     width: 96%;
     max-width: 700px;
     margin: 0px auto;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 12px 20px 12px;
     row-gap: 20px;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(235, 235, 235);
+    -box-shadow: 1px 1px 1px rgb(214, 213, 213);
 }
 
 .flex {
@@ -835,5 +842,10 @@ footer ul li {
         z-index: 2;
         margin-top: 1rem;
         -margin-bottom: 40px;
+    }
+    section {
+        -padding-left: 0px;
+        -padding-right: 0px;
+        width: 100vw;
     }
 }
