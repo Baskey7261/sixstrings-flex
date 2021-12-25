@@ -241,7 +241,6 @@ em {
     font-weight: 100;
     letter-spacing: 0.055em;
     color: rgb(110, 110, 110);
-    -margin-top: 4px;
 }
 
 li {
@@ -464,7 +463,6 @@ h3 {
     line-height: 1.7rem;
     letter-spacing: 0.055em;
     margin: 0px;
-    -font-weight: 100;
     color: rgb(235, 235, 233);
     cursor: pointer;
 }
@@ -480,7 +478,6 @@ h3 {
     text-align: center;
     color: var(--accent2);
     font-size: 1.2rem;
-    -font-weight: 400;
     letter-spacing: .06em;
     grid-column: 1/-1;
     grid-row: 3/5;
@@ -545,11 +542,13 @@ section {
     width: 100%;
     max-width: 700px;
     margin: 0px auto;
-    padding: 20px 12px 20px 12px;
-    row-gap: 20px;
-    -background-color: rgb(243, 243, 243);
-    -border: 1px solid rgb(247, 247, 247);
+    padding: 0px 12px 0px 12px;
+    row-gap: 25px;
     margin-bottom: 25px;
+}
+
+.checkBoard {
+    row-gap: 0px;
 }
 
 .flex {
@@ -557,10 +556,12 @@ section {
     flex-direction: column;
     flex-basis: 33%;
     justify-content: center;
+    align-content: center;
     min-width: 260px;
     flex: 1 1 0;
     align-self: stretch;
     padding: 15px 10px 15px 10px;
+    -border: 1px solid red;
 }
 
 .img {
