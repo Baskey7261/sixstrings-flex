@@ -727,6 +727,21 @@ footer ul li {
     color: rgb(129, 85, 4);
 }
 
+@media screen and (min-width:1024px) {
+    .intro {
+        margin: 0px auto;
+        text-align: center;
+        width: 100%;
+        -border: 1px solid red;
+        padding-bottom: 15px;
+    }
+    section {
+        width: 100%;
+        max-width: 900px;
+        padding: 0px;
+    }
+}
+
 @media screen and (max-width:540px) {
     .mobOnly {
         display: block;
