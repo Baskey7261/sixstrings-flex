@@ -547,8 +547,8 @@ section {
     margin: 0px auto;
     padding: 20px 12px 20px 12px;
     row-gap: 20px;
-    background-color: rgb(243, 243, 243);
-    border: 1px solid rgb(247, 247, 247);
+    -background-color: rgb(243, 243, 243);
+    -border: 1px solid rgb(247, 247, 247);
     margin-bottom: 25px;
 }
 
@@ -797,5 +797,6 @@ footer ul li {
     }
     section {
         width: 98vw;
+        padding: 0px;
     }
 }
