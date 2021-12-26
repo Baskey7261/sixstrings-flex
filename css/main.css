@@ -389,7 +389,7 @@ h3 {
 }
 
 .pencil::before {
-    content: "\e905";
+    content: "\e907";
 }
 
 .bodyCover {
